@@ -1,0 +1,5 @@
+
+# tell docker to ignore node node_modules so it will decrease the size of the app
+# and because we tell docker to run npm when run the container so we dont need the node_modules
+node_modules
+npm-debug.log
