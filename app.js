@@ -19,5 +19,3 @@ app.get('/newpage', (req, res) => {
 
 app.listen(PORT, HOST);
 console.log(`Running on http://${HOST}:${PORT}`);
-
-
