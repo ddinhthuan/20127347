@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Node.js on Docker",
   "author": "20127347",
-  "main": "server.js",
+  "main": "app.js",
   "scripts": {
     "start": "node app.js"
   },

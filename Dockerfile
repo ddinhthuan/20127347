@@ -21,7 +21,7 @@ RUN npm install
 COPY . .
 
 # Because we listen on port 8080 so we register the container to port 8080
-EXPOSE 8080
+EXPOSE 80
 
 # when the container is running we can use these cmd in CLI
 CMD [ "node", "app.js" ]
